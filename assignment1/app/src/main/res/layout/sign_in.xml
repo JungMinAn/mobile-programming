@@ -51,7 +51,6 @@
         android:id="@+id/testview"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@id/btnlayout"
-        android:text="testing"/>
+        android:layout_below="@id/btnlayout" />
 
 </RelativeLayout>
