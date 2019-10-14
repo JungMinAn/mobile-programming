@@ -109,9 +109,9 @@ public class MainActivity extends AppCompatActivity {
         s_id = t_id.getText().toString();
         s_pw = t_pw.getText().toString();
         String[] account = {s_id, s_pw};
-        tv.append("\n" + account[0] + " " + account[1]);
+        //tv.append("\n" + account[0] + " " + account[1]);
         if (isaccount(view, account)){
-            tv.append("\n" + account[0] + "& " + account[1] + "is login");
+            //tv.append("\n" + account[0] + "& " + account[1] + "is login");
             Intent calcintent = new Intent(MainActivity.this, Calculator.class);
             startActivity(calcintent);
         }
