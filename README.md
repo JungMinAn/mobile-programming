@@ -17,3 +17,16 @@
 3. 세번째 화면 (Constraint Layout, Table Layout, Grid Layout, Frame Layout 중 하나 사용) - Grid Layout과 Linear Layout 혼용 사용.
 - 첫번째 페이지에서 ID, 비밀번호 입력 시 정상이고 로그인 버튼 클릭 시 화면 출력 - 달성
 - 세번째 화면을 간단한 기능을 수행하도록 구성 (ex. 간편 계산기 등) - 간편 계산기 구현. 숫자, 수식 버튼으로 계산식을 만들어 = 버튼 클릭 시 계산식 계산.
+
+실행 os - 리눅스 우분투 16.04, 
+
+java -version 결과
+openjdk version "1.8.0_222"
+OpenJDK Runtime Environment (build 1.8.0_222-8u222-b10-1ubuntu1~16.04.1-b10)
+OpenJDK 64-Bit Server VM (build 25.222-b10, mixed mode)
+
+SDK 플랫폼
+- Android 9.0
+- android emulator 27.3.10
+- android sdk platform-tools 28.0.1
+- android sdk tools 26.1.1
